@@ -136,6 +136,9 @@ a {
     @media (min-width: 500px) {
         width: 400px;
     }
+    @media (max-width: 375px) {
+        justify-content: end;
+    }
 
     ul {
         display: flex;
@@ -144,6 +147,11 @@ a {
         list-style: none;
         padding: 50px;
         width: 100%;
+
+        @media (max-width: 415px) {
+            margin-top: 30px;
+
+        }
 
         a {
             color: #fff;

@@ -83,9 +83,6 @@ const Navbar = () => {
                         <li onClick={closeModal}>О нас </li>
                     </Link>
 
-                    <Link href="/contact">
-                        <li onClick={closeModal}>Свяжитесь с нами</li>
-                    </Link>
                 </ul>
                 <div className="mobile-menu-info">
                     © 2023
