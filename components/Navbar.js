@@ -89,7 +89,7 @@ const Navbar = () => {
                 </ul>
                 <div className="mobile-menu-info">
                     © 2023
-                    <span style={{ fontSize: "18px" }}> "925Kazakhstan"</span>
+                    <span style={{ fontSize: "18px" }}> 925Kazakhstan</span>
                 </div>
             </div>
             <div className={styles.navbar} ref={modalRef}>
