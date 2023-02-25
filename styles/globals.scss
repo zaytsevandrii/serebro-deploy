@@ -112,7 +112,6 @@ a {
     align-items: center;
     justify-content: center;
     transform: translateX(-100%);
-
     .topMobile {
         position: absolute;
         top: 70px;
@@ -147,10 +146,10 @@ a {
         list-style: none;
         padding: 50px;
         width: 100%;
+        margin-top: 30px;
 
         @media (max-width: 415px) {
             margin-top: 30px;
-
         }
 
         a {
@@ -190,9 +189,8 @@ a {
   padding: 10px;
 } */
 
-
-.btn{
-    &:active{
+.btn {
+    &:active {
         transform: translateY(6%);
     }
 }
