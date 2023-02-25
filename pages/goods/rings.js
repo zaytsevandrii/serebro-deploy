@@ -1,6 +1,5 @@
 import React from "react"
 import styles from "../../styles/Rings.module.scss"
-import Product from "../../components/goods/product"
 
 const rings = () => {
     return (
@@ -13,15 +12,6 @@ const rings = () => {
                         </div>
                         <div className="col-lg-9 col-12  mt-2">
                             <div className="row">
-                                <Product/>
-                                <Product/>
-                                <Product/>
-                                <Product/>
-                                <Product/>
-                                <Product/>
-                                <Product/>
-                                <Product/>
-                                <Product/>
                             </div>
                         </div>
                     </div>
